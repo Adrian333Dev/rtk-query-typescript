@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "hello",
+      "body": "typicod2"
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "body": "typicode3"
+    },
+    {
+      "id": 4,
+      "title": "json-server4",
+      "body": "typicode4"
+    },
+    {
+      "id": 5,
+      "title": "json-server5",
+      "body": "typicode5"
+    },
+    {
+      "id": 6,
+      "title": "json-server6",
+      "body": "typicode6"
+    },
+    {
+      "title": "hello world",
+      "body": "hello world",
+      "id": 7
+    }
+  ]
+}
