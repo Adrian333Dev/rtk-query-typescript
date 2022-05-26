@@ -1,9 +1,7 @@
 import { postAPI } from "./../services/PostService";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import userReducer from "../features/UserSlice";
 
 const rootReducer = combineReducers({
-  userReducer,
   [postAPI.reducerPath]: postAPI.reducer,
 });
 

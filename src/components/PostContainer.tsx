@@ -25,8 +25,8 @@ const PostContainer = () => {
   return (
     <div className="post__list">
       <button onClick={handleCreate}>Add new Post</button>
-      {isLoading && <h1>Heil Hitler!!!</h1>}
-      {error && <h1>Das Negros</h1>}
+      {isLoading && <h1>Loading</h1>}
+      {error && <h1>Error</h1>}
       {posts &&
         posts.map((post) => (
           <PostItem
